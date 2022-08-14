@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@500&display=swap");
+body {
+  font-family: "comic sans ms", "Noto Naskh Arabic", serif;
+}
+
 header {
   border-radius: 0;
   margin: 0;
