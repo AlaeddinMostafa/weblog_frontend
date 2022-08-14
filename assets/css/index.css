@@ -6,8 +6,10 @@ body {
 
 header {
   border-radius: 0;
-  margin: 0;
-  padding: 0;
+  padding: 5px 0 1px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2549019608);
+  box-shadow: inset 0 0 14px rgba(0, 0, 0, 0.2549019608);
+  background-color: rgba(0, 0, 255, 0.0666666667);
 }
 header nav #left-navigation {
   display: flex;
@@ -15,13 +17,12 @@ header nav #left-navigation {
   align-items: center;
   height: 50px;
   color: #ffffff;
-  border-bottom-right-radius: 50px;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(164deg, rgb(2, 0, 36) 0%, rgb(82, 9, 121) 42%, rgb(0, 212, 255) 100%);
+  border-radius: 10px;
+  box-shadow: 0 0 3px #000000, inset 0 0 10px rgba(0, 0, 0, 0.3803921569);
 }
 header nav #left-navigation a {
   margin: auto;
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 header nav #right-navigation {
