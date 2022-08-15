@@ -9,6 +9,7 @@
     <!--  bootstrap  -->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/swiper.css">
 </head>
 <body>
 
@@ -38,13 +39,42 @@
 
 <!--main-->
 <main>
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img src="assets/img/banner/1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/img/banner/2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/img/banner/3.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/img/banner/4.jpg" alt="">
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
 
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
 </main>
 <!--end main-->
 
 <!--footer-->
 <footer></footer>
 <!--end footer-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
+<script src="assets/js/index.js"></script>
 </body>
 </html>

@@ -42,4 +42,16 @@ header nav #right-navigation ul li a {
   color: black;
 }
 
+.swiper {
+  width: 100%;
+  height: 350px;
+  border: 1px solid rgba(0, 0, 0, 0.1294117647);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.568627451), 0 0 14px rgba(0, 0, 0, 0.1294117647);
+  text-align: center;
+}
+.swiper img {
+  width: 100%;
+  height: 100%;
+}
+
 /*# sourceMappingURL=index.css.map */
