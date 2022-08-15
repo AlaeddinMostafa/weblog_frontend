@@ -54,4 +54,27 @@ header nav #right-navigation ul li a {
   height: 100%;
 }
 
+#myTab {
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1921568627);
+  padding: 10px 10px 0 10px;
+  border-radius: 5px;
+}
+
+#newsletter {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3176470588);
+  background-color: white !important;
+  padding: 0 10px;
+  margin: 0;
+}
+
+.form-newsletter {
+  position: relative;
+}
+.form-newsletter .btn-custom {
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1294117647), 0 0 4px #000000;
+  position: absolute;
+  top: 29px;
+  right: 5px;
+}
+
 /*# sourceMappingURL=index.css.map */
