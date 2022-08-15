@@ -5,10 +5,10 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>blog - About us</title>
+    <title>blog - contact</title>
     <!--  bootstrap  -->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
 </head>
 <body>
 
@@ -37,48 +37,33 @@
 
 <!--main-->
 <main>
-    <div class="container-fluid p-0 overflow-hidden">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-12 background-image">
-                <h4>About Us</h4>
-            </div>
-        </div>
-    </div>
-    <div class="container my-5">
-        <div class="row">
-            <div class="col-lg-4">
-                <img src="https://picsum.photos/400" alt="" class="shadow-custom rounded-pill">
-            </div>
-            <div class="col-lg-8" id="content">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consequatur cupiditate dolorum expedita, facilis incidunt iure iusto libero magnam magni officiis provident, quam qui repudiandae tempora unde vel voluptates voluptatum.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consequatur cupiditate dolorum expedita, facilis incidunt iure iusto libero magnam magni officiis provident, quam qui repudiandae tempora unde vel voluptates voluptatum.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consequatur cupiditate dolorum expedita, facilis incidunt iure iusto libero magnam magni officiis provident, quam qui repudiandae tempora unde vel voluptates voluptatum.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consequatur cupiditate dolorum expedita, facilis incidunt iure iusto libero magnam magni officiis provident, quam qui repudiandae tempora unde vel voluptates voluptatum.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consequatur cupiditate dolorum expedita, facilis incidunt iure iusto libero magnam magni officiis provident, quam qui repudiandae tempora unde vel voluptates voluptatum.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consequatur cupiditate dolorum expedita, facilis incidunt iure iusto libero magnam magni officiis provident, quam qui repudiandae tempora unde vel voluptates voluptatum.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consequatur cupiditate dolorum expedita, facilis incidunt iure iusto libero magnam magni officiis provident, quam qui repudiandae tempora unde vel voluptates voluptatum.
-                </p>
-            </div>
-            <div class="container">
-                <div class="row">
-                   <div class="col-lg-4"></div>
-                    <div class="col-lg-8">
-                        <div class="container-fluid mt-4">
-                            <div class="row">
-                                <div class="col-lg-3 box-shadow-custom text-center">
-                                    <a href="mailto:email@gmail.com" class="text-dark">Email@gmail.com</a>
-                                </div>
-                                <div class="col-lg-3 box-shadow-custom text-center">
-                                    <a href="tel:09198983834" class="text-dark">09198382834</a>
-                                </div>
-                                <div class="col-lg-3 box-shadow-custom text-center">
-                                    <a href="#telegram" class="text-dark">telegram</a>
-                                </div>
-                            </div>
+            <div class="col-xl-3"></div>
+            <div class="col-xl-9 my-5 shadow p-4 box-shadow-custom">
+                <form action="" method="post" role="form">
+                    <div class="row">
+                        <div class="col-lg-6">
+                                <label for="name">surname</label>
+                                <input type="text" name="surname" id="name" class="form-control bg-transparent border-dark">
+                        </div>
+                        <div class="col-lg-6">
+                                <label for="email">email</label>
+                                <input type="text" name="email" id="email" class="form-control bg-transparent border-dark">
                         </div>
                     </div>
-                </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <label for="subject">subject</label>
+                            <input type="text" name="subject" id="subject" class="form-control bg-transparent border-dark">
+                        </div>
+                        <div class="col-lg-12">
+                            <label for="description">description</label>
+                            <textarea name="description" id="description" cols="30" rows="10" class="form-control bg-transparent border-dark"></textarea>
+                        </div>
+                    </div>
+                    <button class="btn btn-md btn-outline-dark border-3 my-3">submit</button>
+                </form>
             </div>
         </div>
     </div>
